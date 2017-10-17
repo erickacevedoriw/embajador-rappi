@@ -78,6 +78,7 @@ header.container {
 /* PORTADA */
 
 .portada {
+    background: #ed6148;
     background-image: url(../img/showcase-2.jpg);
     background-size: cover;
     background-position: center;

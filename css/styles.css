@@ -337,10 +337,6 @@ header.container {
     }
 
     .menu {
-        display: none;
-    }
-
-    .menu.active {
         display: inline-block;
         text-align: center;
         position: absolute;
@@ -348,8 +344,12 @@ header.container {
         padding-top: 70px;
         padding-bottom: 20px;
         width: 100%;
-        right: 0;
+        left: -100%;
         transition: .3s;
+    }
+
+    .menu.active {
+        left: 0;
     }
 
     .menu li {

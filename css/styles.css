@@ -334,7 +334,6 @@ header.container {
 
     .logo a h1 {
         text-align: left;
-        font-size: 20px;
     }
 
     .menu {
@@ -401,10 +400,13 @@ header.container {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
     .logo a h1 {
         font-size: 20px;
     }
+}
+
+@media screen and (max-width: 320px) {
     
     .titulo h1 {
         font-size: 20px;

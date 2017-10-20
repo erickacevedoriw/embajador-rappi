@@ -330,11 +330,11 @@ header.container {
     .logo {
         width: 80%;
         float: left;
-        font-size: 20px;
     }
 
     .logo a h1 {
         text-align: left;
+        font-size: 20px;
     }
 
     .menu {

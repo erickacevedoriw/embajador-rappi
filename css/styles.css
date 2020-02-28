@@ -13,7 +13,7 @@
 }
 
 .highlight {
-    color: #ed6148;
+    color: #ff2626;
 }
 
 a {
@@ -21,18 +21,18 @@ a {
 }
 
 .text-container {
-    background: #ed6148;
+    background: #000639;
     font-size: 20px;
     color: white;
 }
 
 p {
-    font-family: 'Montserrat Light', sans-serif;
+    font-weight: 300;
 }
 
 .div-sections h1 {
-    font-size: 45px;
-    padding: 30px 10px;
+    font-size: 40px;
+    padding: 50px 0;
 }
 
 header .burger-button {
@@ -41,7 +41,7 @@ header .burger-button {
 
 /* HEADER */
 .header {
-    background: #ed6148;
+    background: #000639;
     position: fixed;
     width: 100%;
     top: 0;
@@ -70,7 +70,8 @@ header.container {
 .menu a {
     color: white;
     letter-spacing: 0.5px;
-    font-family: 'Montserrat Light', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
 .menu li {
@@ -86,6 +87,12 @@ header.container {
     background-size: cover;
     background-position: center;
     margin-top: 60px;
+    
+
+
+    height: 87vh;
+    display: flex;
+    align-items: center;
 }
 
 .titulo {
@@ -104,7 +111,7 @@ header.container {
 }
 
 .titulo p strong {
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 .titulo h3 {
@@ -116,38 +123,39 @@ header.container {
     font-size: 50px;
 }
 
-/* ACERCA DE RAPPI */
+/* ACERCA DE iw */
 
-.acerca-rappi {
+.acerca-iw {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.acerca-rappi .imagen {
+.acerca-iw .imagen {
     margin: auto;
 }
 
-.acerca-rappi .text-container {
+.acerca-iw .text-container {
     min-height: 300px;
     max-width: 1024px;
     display: flex;
     align-items: center;
     margin: 0 auto;
+    margin-right: 0;
 }
 
-.acerca-rappi .text-container p {
+.acerca-iw .text-container p {
     padding: 0 100px;
 }
 
-/* ¿QUÉ ES UN RAPPITENDERO? */
+/* ¿QUÉ ES UN iwTENDERO? */
 
-.que-es-rappitendero {
+.que-es-iwtendero {
     display: flex;
     flex-wrap: wrap;
 }
 
-.que-es-rappitendero .text-container {
+.que-es-iwtendero .text-container {
     width: 50%;
     height: 400px;
     display: flex;
@@ -155,12 +163,12 @@ header.container {
     font-size: 25px;
 }
 
-.que-es-rappitendero .text-container p {
+.que-es-iwtendero .text-container p {
     padding: 0 70px;
 }
 
 .left {
-    background-image: url("../img/rappitendero-cliente.png");
+    background-image: url("../img/iwtendero-cliente.png");
     width: 50%;
     height: 400px;
     background-size: cover;
@@ -168,20 +176,20 @@ header.container {
 }
 
 .right {
-    background-image: url("../img/rappitendero-almacen.png");
+    background-image: url("../img/iwtendero-almacen.png");
     width: 50%;
     height: 400px;
     background-size: cover;
     background-position: center;
 }
 
-/* ¿CÓMO SER UN RAPPITENDERO? */
+/* ¿CÓMO SER UN iwTENDERO? */
 
-.como-ser-rappitendero {
-    margin-bottom: 20px;
+.como-ser-iwtendero {
+    margin: 30px auto 60px;
 }
 
-.como-ser-rappitendero i {
+.como-ser-iwtendero i {
     font-size: 70px;
     margin-bottom: 20px;
 }
@@ -251,6 +259,30 @@ header.container {
     margin-top: 30px;
 }
 
+
+@media (min-width: 901px) and (max-width: 1323px){
+    .acerca-iw .text-container .imagen,
+    .acerca-iw .text-container{
+        max-width: 50%;
+    }
+    .acerca-iw .text-container p{
+        padding: 0 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     header.container {
         display: inline-block;
@@ -295,7 +327,7 @@ header.container {
         font-size: 40px;
     }
 
-    .acerca-rappi .text-container p {
+    .acerca-iw .text-container p {
         padding: 0 30px;
     }
 
@@ -308,12 +340,12 @@ header.container {
         display: none;
     }
 
-    .que-es-rappitendero .text-container {
+    .que-es-iwtendero .text-container {
         width: 100%;
         height: 150px;
     }
 
-    .que-es-rappitendero .text-container p {
+    .que-es-iwtendero .text-container p {
         padding: 0 40px;
         font-size: 20px;
     }
@@ -403,7 +435,7 @@ header.container {
         height: 300px;
     }
 
-    .que-es-rappitendero .text-container p {
+    .que-es-iwtendero .text-container p {
         font-size: 18px;
     }
 
@@ -432,11 +464,11 @@ header.container {
         font-size: 25px;
     }
 
-    .acerca-rappi .text-container {
+    .acerca-iw .text-container {
         min-height: 200px;
     }
 
-    .acerca-rappi .text-container p, .que-es-rappitendero .text-container p {
+    .acerca-iw .text-container p, .que-es-iwtendero .text-container p {
         font-size: 15px;
     }
 
